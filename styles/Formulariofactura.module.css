@@ -1,0 +1,17 @@
+.total{
+    border: 1px solid #b6b6b6;
+    margin-left: 5%;
+    padding: 1rem;
+    width: 320px;
+    border-radius: 5px;
+    color: #969292;
+}
+
+.botones{
+    padding: 1rem;
+    display: flex;
+    margin-left: 2%;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+

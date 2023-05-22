@@ -1,0 +1,156 @@
+
+.header div {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+    
+    font-size: 1rem;
+    
+}
+.header h5{
+    color:#6f6f6f;
+    font-weight: 600;
+    text-decoration:none;
+    
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+}
+
+.movil{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .movil {
+      display: flex;
+      cursor: pointer;
+    }
+  }
+
+
+@media (max-width: 800px) {
+    .logo {
+      display: none;
+    }
+  }
+  
+.icons a{
+    font-size: 1.5rem;
+}
+
+.lema {
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lema h5{
+    color:#6f6f6f;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+
+.lema h5:hover{
+    color: rgb(23, 67, 132);
+    
+}
+
+.lema a{
+    text-decoration:none;
+}
+
+.icons {
+color:#6f6f6f;
+
+align-items: center;
+justify-content: right;
+
+}
+
+.icons a {
+    margin-left: 10%;
+    color:#6f6f6f;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons a:hover {
+    color: #5b9fc8;
+}
+
+.icons:hover{
+    color: #5b9fc8;
+}
+.header h1{
+    color: #6f6f6f;
+    
+    
+}
+
+
+
+
+.logo h1{
+    margin-top: 1%;
+    font-size: 3rem;
+}
+
+
+
+.nav a{
+    color: #6f6f6f;
+    padding-top: 3%;
+    padding-bottom: 1.2rem;
+    text-decoration:none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.nav a:hover{
+    color: #5b9fc8;
+    border-bottom: 0.5px solid #5b9fc8;
+}
+
+.nav a.activo{
+    border-bottom: 0.5px solid #5b9fc8;
+
+}
+
+
+.nav{
+    margin-top: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px){
+    .nav{
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+        font-size: 1rem;
+        
+    }
+
+    .nav a{
+        padding-top: 1%;
+        padding-bottom: 0.5rem;
+    }
+}
+

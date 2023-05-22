@@ -1,0 +1,15 @@
+body {
+    font-size: 1.8rem;
+    font-family: var(--fuente-principal);
+    line-height: 1.5;
+    margin: 5% !important;
+    margin-top: 0 !important;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}

@@ -1,0 +1,58 @@
+.footer{
+    
+    
+   
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    
+    
+}
+
+.footer div{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: flex-start;
+    font-family: roboto;
+}
+
+
+.footer a{
+    color: #6f6f6f;
+    font-size: 1rem;
+    text-decoration:none;
+    margin-right: 2%;
+}
+
+.footer a:hover{
+    color: #5b9fc8;
+}
+
+
+.links{
+    font-size: 1.2rem;
+    float: left;
+    display: flex;
+}
+
+.registrado{
+    font-size: 1rem;
+    float:right;
+    display: flex;
+    margin-left: auto;
+    margin-top: 3%;
+    
+}
+
+.registrado p{
+    margin-right: 2%;
+}
